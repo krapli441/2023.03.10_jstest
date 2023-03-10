@@ -13,9 +13,9 @@
   createTeamMemberContainer.style.justifyContent = styleEvenly;
   createTeamMemberContainer.style.alignItems = styleCenter;
   
+
+  // 팀원 목록 만들기 위해 변수 선언
   const teamNameList = _teamInfo.teamAllMember;
-
-
 
   //팀원 목록 생성
   for(let i = 0; i < _teamInfo.teamAllMember.length; i++) {
