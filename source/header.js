@@ -16,7 +16,7 @@
   createHeaderText.innerHTML = _teamInfo.teamName;
   createHeader.appendChild(createHeaderText);
   createHeaderText.style.fontSize = "96px";
-  createHeaderText.style.fontWeight = "bold";
+  createHeaderText.style.fontWeight = fontWeight[1];
   createHeaderText.style.letterSpacing = "50px";
 
   // 팀명 서브 네임
@@ -25,5 +25,5 @@
   createSubText.innerHTML = _teamInfo.teamNameStory;
   createHeader.appendChild(createSubText);
   createSubText.style.fontSize = "40px";
-  createSubText.style.fontWeight = "light";
+  createSubText.style.fontWeight = fontWeight[0];
   createSubText.style.letterSpacing = "32.6px";
