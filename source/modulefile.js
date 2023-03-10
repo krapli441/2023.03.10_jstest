@@ -51,7 +51,7 @@ const _EXAMDATA = {
     ]
   },
   designInformation: {
-    colorSet : ["cadetblue", "salmon", "#ccc", "#333"],
+    colorSet : ["cadetblue", "salmon", "#ccc", "#333", '#D9D9D9'],
     breakPoint : [ "768px", "1280px",  "1920px"]
   }
 }
