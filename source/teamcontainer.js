@@ -60,6 +60,8 @@
     createTeamDiv.style.height = "132px";
     createTeamDiv.style.backgroundColor = _teamDesign.colorSet[4];
     createTeamDiv.style.borderRadius = "60px";
+
+    
   }
   
   // 팀원 이름 생성
