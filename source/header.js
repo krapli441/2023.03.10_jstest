@@ -7,7 +7,6 @@
   createHeader.style.alignItems = styleCenter;
   createHeader.style.flexDirection = styleColumn;
   createHeader.style.width = "100%";
-  createHeader.style.height = "150px";
   createHeader.style.textAlign = styleCenter;
   createHeader.style.color = _teamDesign.colorSet[2];
   // header 텍스트 생성

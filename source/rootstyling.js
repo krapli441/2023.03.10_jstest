@@ -6,6 +6,7 @@ let styleFlex = "flex";
 let styleColumn = "column";
 let styleRow = "row";
 let styleEvenly = "space-evenly";
+let styleAround = "space-around";
 let fontWeight = ["light", "bold"];
 
 root.style.width = _teamDesign.breakPoint[2];

@@ -22,7 +22,7 @@
     createTeamMemberContainer.appendChild(createTeamDiv);
     createTeamDiv.style.display = styleFlex;
     createTeamDiv.style.alignItems = styleCenter;
-    createTeamDiv.style.justifyContent = styleCenter;
+    createTeamDiv.style.justifyContent = styleAround;
     createTeamDiv.style.color = _teamDesign.colorSet[3];
     // 팀원 아이콘 생성
     const createTeamMemberIcon = document.createElement('i');
@@ -32,9 +32,18 @@
 
     const createTeamMemberName = document.createElement('div');
     createTeamMemberName.innerHTML = teamNameList[i].name;
+    createTeamMemberName.setAttribute("class", "teammate-name");
     createTeamMemberName.style.fontSize = "48px";
     createTeamDiv.appendChild(createTeamMemberName);
     
+    const createTeamMemberRightArrowDiv = document.createElement('div');
+    createTeamMemberRightArrowDiv.setAttribute("class", "right-arrow-icon");
+    createTeamDiv.appendChild(createTeamMemberRightArrowDiv);
+
+    const createTeamMemberRightArrowIcon = document.createElement('i');
+    createTeamMemberRightArrowIcon.setAttribute("class", "fa-solid fa-arrow-right");
+    createTeamMemberRightArrowDiv.appendChild(createTeamMemberRightArrowIcon);
+    createTeamMemberRightArrowIcon.style.fontSize = "48px";
 
     // 팀원 목록 스타일링
     createTeamDiv.style.width = "1080px";
