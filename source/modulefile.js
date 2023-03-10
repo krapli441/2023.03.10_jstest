@@ -2,29 +2,35 @@ const _EXAMDATA = {
   teamInformation: {
     teamNumber : 2,
     teamName: "NewDevs",
-    teamNameStory: "온 세상이 뉴진스다 =  온 세상이 NewDevs다",
+    teamNameStory: "New Developers",
     teamManager: "박준형",
     teamAllMember: [
       {
         memberNumber: 1,
+        name: "박준형",
+        teamPosition: "팀장",
+        githubAddress: "https://github.com/krapli441"
+      },
+      {
+        memberNumber: 2,
         name: "곽윤호",
         teamPosition: "팀원",
         githubAddress: "https://github.com/KwakYounHo"
       },
       {
-        memberNumber: 2,
+        memberNumber: 3,
         name: "성해경",
         teamPosition: "팀원",
         githubAddress: "https://github.com/HaekyungS"
       },
       {
-        memberNumber: 3,
+        memberNumber: 4,
         name: "장루빈",
         teamPosition: "팀원",
         githubAddress: "https://github.com/JangRuBin2"
       },
       {
-        memberNumber: 4,
+        memberNumber: 5,
         name: "권예준",
         teamPosition: "팀원",
         githubAddress: "https://github.com/KwonYeJun"

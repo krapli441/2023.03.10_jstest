@@ -6,27 +6,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+  /* 폰트 */
+    @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+    
     * {
       margin: 0px;
       box-sizing: border-box;
+      font-family: 'Jura', sans-serif;
     }
+  
+
   </style>
 </head>
 <body>
   <div id="root">
   </div>
   <script src="./source/modulefile.js"></script>
-  <script src="./source/rootstyling.js"></script>
   <!--변경하지 않을 것-->
+  <script src="./source/rootstyling.js"></script>
+  <script src="./source/header.js"></script>
+  <script src="./source/teamcontainer.js"></script>
   <script>
 
-  const createDiv = document.createElement('div');
-  createDiv.setAttribute("class", "items");
-  root.appendChild(createDiv);
+  
 
-  _teamInfo.teamAllMember.forEach(element => {
-    console.log(element);
-  });
   </script>
 </body>
 </html>
