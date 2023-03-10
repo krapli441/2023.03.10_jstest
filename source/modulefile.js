@@ -49,3 +49,8 @@ const _EXAMDATA = {
     breakPoint : [ "768px", "1280px",  "1920px"]
   }
 }
+
+const _teamInfo= _EXAMDATA.teamInformation;
+const _teamTraining = _EXAMDATA.trainingInformation;
+const _teamDesign = _EXAMDATA.designInformation; 
+

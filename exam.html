@@ -16,15 +16,17 @@
   <div id="root">
   </div>
   <script src="./source/modulefile.js"></script>
-  <script src="./source/rootstyling.js"></script><!--변경하지 않을 것-->
+  <script src="./source/rootstyling.js"></script>
+  <!--변경하지 않을 것-->
   <script>
-  
-  //div class "items" 생성
+
   const createDiv = document.createElement('div');
   createDiv.setAttribute("class", "items");
   root.appendChild(createDiv);
 
-
+  _teamInfo.teamAllMember.forEach(element => {
+    console.log(element);
+  });
   </script>
 </body>
 </html>
