@@ -16,7 +16,7 @@
   const teamNameList = _teamInfo.teamAllMember;
 
 
-  
+
   //팀원 목록 생성
   for(let i = 0; i < _teamInfo.teamAllMember.length; i++) {
     const createTeamDiv = document.createElement('div');
@@ -28,9 +28,12 @@
     createTeamDiv.style.color = _teamDesign.colorSet[3];
 
     // 팀원 아이콘 생성
+    const createTeamMemberIconDiv = document.createElement('div');
+    createTeamMemberIconDiv.setAttribute("class", "teammate-icon");
+    createTeamDiv.appendChild(createTeamMemberIconDiv);
     const createTeamMemberIcon = document.createElement('i');
     createTeamMemberIcon.setAttribute("class", "fa-solid fa-user");
-    createTeamDiv.appendChild(createTeamMemberIcon);
+    createTeamMemberIconDiv.appendChild(createTeamMemberIcon);
     createTeamMemberIcon.style.fontSize = "40px";
 
     // 팀원 이름 넣기 위해 div 생성
