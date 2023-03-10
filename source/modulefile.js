@@ -1,33 +1,33 @@
 const _EXAMDATA = {
   teamInformation: {
-    teamNumber : 0,
-    teamName: "팀명 작성",
-    teamNameStory: "팀명은 이런이유로 만들었답니다!",
-    teamManager: "공욱재",
+    teamNumber : 2,
+    teamName: "NewDevs",
+    teamNameStory: "온 세상이 뉴진스다 =  온 세상이 NewDevs다",
+    teamManager: "박준형",
     teamAllMember: [
       {
-        memberNumber: 0,
-        name: "공욱재",
-        teamPosition: "팀장",
-        githubAddress: "https://www.github.com/"
+        memberNumber: 1,
+        name: "곽윤호",
+        teamPosition: "팀원",
+        githubAddress: "https://github.com/KwakYounHo"
       },
       {
-        memberNumber: 0,
-        name: "공욱재",
-        teamPosition: "팀장",
-        githubAddress: "https://www.github.com/"
+        memberNumber: 2,
+        name: "성해경",
+        teamPosition: "팀원",
+        githubAddress: "https://github.com/HaekyungS"
       },
       {
-        memberNumber: 0,
-        name: "공욱재",
-        teamPosition: "팀장",
-        githubAddress: "https://www.github.com/"
+        memberNumber: 3,
+        name: "장루빈",
+        teamPosition: "팀원",
+        githubAddress: "https://github.com/JangRuBin2"
       },
       {
-        memberNumber: 0,
-        name: "공욱재",
-        teamPosition: "팀장",
-        githubAddress: "https://www.github.com/"
+        memberNumber: 4,
+        name: "권예준",
+        teamPosition: "팀원",
+        githubAddress: "https://github.com/KwonYeJun"
       },
     ]
   },
