@@ -1,8 +1,7 @@
 // 클릭 이벤트를 위해 팀원 리스트 식별
 const teamMateListForBtn = document.querySelectorAll(".team-mate");
 
-let toggle;
-
+let toggle = true;
 
 function stylechange() {
   if (toggle === true) {

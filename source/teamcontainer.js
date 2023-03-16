@@ -26,6 +26,7 @@
     createTeamDiv.style.alignItems = styleCenter;
     createTeamDiv.style.justifyContent = styleAround;
     createTeamDiv.style.color = _teamDesign.colorSet[3];
+    createTeamDiv.style.cursor = "pointer";
     
     // 팀원 아이콘 생성
     const createTeamMemberIconDiv = document.createElement('div');
