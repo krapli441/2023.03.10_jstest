@@ -48,14 +48,11 @@ teamMateListForBtn[4].addEventListener("click", stylechange_4);
 
 
 // 토글 기능을 넣기 위해 지역변수 선열
-// let changeSwitch;
 
 
 // 클릭 시 팀원 리스트 안의 3가지 요소 (사람 아이콘, 이름, 화살표 아이콘) 삭제
 
 
-// console.log(teamMateListForBtn);
-// let changeSwitch = true;
 
 // for (let button = 0; button < teamMateListForBtn.length; button++) {
 //   teamMateListForBtn[button].addEventListener("click", switchToggle);
