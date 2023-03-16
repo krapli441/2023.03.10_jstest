@@ -15,8 +15,8 @@ function stylechange() {
     teamMateListForBtn[0].children[0].children[0].setAttribute("class", "fa-solid fa-user");
     teamMateListForBtn[0].children[1].innerHTML = "박준형";
     teamMateListForBtn[0].children[2].children[0].setAttribute("class","fa-solid fa-arrow-right");
+    toggle = true;
   };
-  toggle = true;
 }
 
 teamMateListForBtn[0].addEventListener("click", stylechange);
@@ -32,8 +32,8 @@ function stylechange_1() {
     teamMateListForBtn[1].children[0].children[0].setAttribute("class", "fa-solid fa-user");
     teamMateListForBtn[1].children[1].innerHTML = "곽윤호";
     teamMateListForBtn[1].children[2].children[0].setAttribute("class","fa-solid fa-arrow-right");
+    toggle = true;
   };
-  toggle = true;
 }
 
 teamMateListForBtn[1].addEventListener("click", stylechange_1);
@@ -49,8 +49,8 @@ function stylechange_2() {
     teamMateListForBtn[2].children[0].children[0].setAttribute("class", "fa-solid fa-user");
     teamMateListForBtn[2].children[1].innerHTML = "성해경";
     teamMateListForBtn[2].children[2].children[0].setAttribute("class","fa-solid fa-arrow-right");
+    toggle = true;
   };
-  toggle = true;
 }
 
 teamMateListForBtn[2].addEventListener("click", stylechange_2);
@@ -66,8 +66,8 @@ function stylechange_3() {
     teamMateListForBtn[3].children[0].children[0].setAttribute("class", "fa-solid fa-user");
     teamMateListForBtn[3].children[1].innerHTML = "장루빈";
     teamMateListForBtn[3].children[2].children[0].setAttribute("class","fa-solid fa-arrow-right");
+    toggle = true;
   };
-  toggle = true;
 }
 
 teamMateListForBtn[3].addEventListener("click", stylechange_3);
@@ -84,8 +84,8 @@ function stylechange_4() {
     teamMateListForBtn[4].children[0].children[0].setAttribute("class", "fa-solid fa-user");
     teamMateListForBtn[4].children[1].innerHTML = "권예준";
     teamMateListForBtn[4].children[2].children[0].setAttribute("class","fa-solid fa-arrow-right");
+    toggle = true;
   };
-  toggle = true;
 }
 
 teamMateListForBtn[4].addEventListener("click", stylechange_4);
